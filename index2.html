@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>한중일 청춘드라마</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	.wrap{width:1200px ; margin: auto; margin-bottom: 180px;}
+	.who{width:1200px ;height: 6800px; margin: auto; margin-bottom: 0px;}
+	.hey{width:1200px ; margin: auto; background-color: #cc232a; padding-top: 180px; }
+	.thumbrail-box{width: 1120px;  margin-top:220px; margin-left:80px;}
+	.wego{ padding-top:8000px ;width:1200px ; margin: auto; background-color: #efc032; padding-top: 180px;}
+	.woo{width:1200px ; height: 8000px; margin: auto; margin-bottom: 180px;background-color: #efc032;}
+	@font-face { font-family: 'S-CoreDream-8Heavy'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff'); font-weight: normal; font-style: normal; }
+	@font-face { font-family: 'S-CoreDream-4Regular'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff'); font-weight: normal; font-style: normal; }
+	@font-face { font-family: 'S-CoreDream-6Bold'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff'); font-weight: normal; font-style: normal; }
+	h1{ margin-left: 80px; font-family: 'S-CoreDream-8Heavy'; font-size:100px;line-height: 1.3;padding-top:70px;}
+	nav{margin-right: 60px; margin-top: 60px;}
+	nav ul{text-align: right; }
+	nav li{list-style-type: none; width: 100px; height: 44px; ; display: inline-block; text-align: center; line-height: 44px;font-family: 'S-CoreDream-6Bold'; font-size:32px; }
+	li a{text-decoration: none; color:black; font-weight: bold;}
+	li a:link, li a:hover, li a:active, li a:visited{ display:block; text-decoration: none; color:black; font-weight: bold; transition: all 1s; }
+	li a:hover{background: black; color: white;}
+	.text-box{width: 500px;}
+	.text-box {width:500px;}
+	.wrap p{font-family: 'S-CoreDream-4Regular'; font-size:25px; text-align: right; margin-right: 80px; line-height: 1.8; margin-top: 150px;}
+	.col{width:25.001%;  ;float:left;; margin-bottom: 80px;}
+		.img{width: 200px; height: 200px;}
+		.col p{font-family: 'S-CoreDream-4Regular'; font-size:14px; margin-right: 80px; line-height: 1.8;text-align: center;} 
+		.back1{background:url('b.png');background-size: cover;}
+		.back2{background:url('c.png');background-size: cover;} 
+		.back3{background:url('d.png');background-size: cover;} 
+		.back4{background:url('e.png');background-size: cover;}  
+		.back5{background:url('f.png');background-size: cover;}
+		.back6{background:url('g.png');background-size: cover;} 
+		.back7{background:url('h.png');background-size: cover;} 
+		.back8{background:url('i.png');background-size: cover;}
+		.back9{background:url('pa.png');background-size: cover;}
+		.back10{background:url('pb.png');background-size: cover;} 
+		.back11{background:url('pc.png');background-size: cover;} 
+		.back12{background:url('pd.png');background-size: cover;}  
+		.back13{background:url('pe.png');background-size: cover;}
+		.back14{background:url('pf.png');background-size: cover;} 
+		.back15{background:url('pg.png');background-size: cover;} 
+		.back16{background:url('ph.png');background-size: cover;}
+	.what{position: absolute; width: 1200px;}
+	.what img{position: absolute;display: block; padding-top: 130px;}
+	.what h2{ width: 600px;font-family: 'S-CoreDream-6Bold'; font-size:40px; left: 900px ;display: block;display: block; z-index:999; }
+	.what h3{ width: 600px;font-family: 'S-CoreDream-4Regular'; font-size:22px; text-align: right; margin-right: 80px; line-height: 1.8; text-align: left;display: block;z-index: 999;}   
+	.what h4{ position: absolute;font-family: 'S-CoreDream-4Regular'; font-size:15px;width: 300px; text-align: right; line-height: 1.8; display: block; }
+	.school h3{ width: 490px;font-family: 'S-CoreDream-4Regular'; font-size:22px; text-align: right; line-height: 1.8; display: block;z-index: 999;}   
+
+	.hoo {position: absolute;   }
+	.wo {padding-left: 550px; padding-top: 330px;z-index:999;  }
+	.ooh {position: absolute;}
+	.oh {padding-left: 80px; padding-top: 1430px;z-index:999;  }
+	.oohh {position: absolute;}
+	.ohh {padding-left: 750px; padding-top: 2060px;z-index:999; }
+	.hy {position: absolute;}
+	.ha {padding-left: 80px; padding-top: 3340px;z-index:999; }
+	.lll{position: absolute;}
+	.ll{ padding-left: 670px; padding-top: 4500px;z-index:999;}
+	.school{padding-left: 630px; z-index:0; padding-top: 6450px;background-color: #cc232a;}
+	.we{position: absolute; width: 1200px;}
+	.we img{position: absolute;display: block; padding-top: 130px;}
+	.we h2{ width: 600px;font-family: 'S-CoreDream-6Bold'; font-size:40px; left: 900px ;display: block;display: block; z-index:999; }
+	.we h3{ width: 600px;font-family: 'S-CoreDream-4Regular'; font-size:22px; text-align: right; margin-right: 80px; line-height: 1.8; text-align: left;display: block;z-index: 999;}   
+	.we h4{ position: absolute;font-family: 'S-CoreDream-4Regular'; font-size:15px;width: 300px; text-align: right; line-height: 1.8; display: block; }
+	.wee h3{ width: 490px;font-family: 'S-CoreDream-4Regular'; font-size:22px; text-align: right; line-height: 1.8; display: block;z-index: 999;}  
+	.weee {position: absolute;   }
+	.wie{padding-left: 580px; padding-top: 700px;z-index:999;   }
+	.a {position: absolute;   }
+	.ab{padding-left: 80px; padding-top: 1900px;z-index:999;   }
+	.b {position: absolute;   }
+	.bb{padding-left: 580px; padding-top: 3000px;z-index:999;   }
+	.c {position: absolute;   }
+	.ca{padding-left: 80px; padding-top: 4250px;z-index:999;   }
+
+	</style>
+</head>
+
+<body>
+<div class= "wrap">
+	<nav>
+		<ul>
+		<li><a href="#a">한국</a></li>
+		<li><a href="#b">일본</a></li>
+		<li><a href="#c">중국</a></li>
+	</ul>
+	</nav>
+
+	<h1>한중일 청춘 드라마 	<br> 전격 비교 탐구</h1>
+	<p>십 대 후반(後半)에서 이십 대에 걸치는<br>
+인생(人生)의 젊은 나이</p>
+</div>
+<div class="hey">
+	<section id="a">
+	<img src="./a.png" style= " text-align: center;width:280px; padding-top: 100px; padding-left: 460px; display: block; ">	
+</section>
+<section>
+			<div class="thumbrail-box">
+				<div class="col">
+					<div class="img back1"></div>
+					<p>학교 2013</p>
+				</div>
+				<div class="col">
+					<div class="img back2"></div>
+					<p>드림하이</p>
+				</div>
+				<div class="col">
+					<div class="img back3" ></div>
+					<p>후아유 학교2015</p>
+				</div>
+				<div class="col" >
+					<div class="img back4" ></div>
+					<p>청춘시대</p>
+				</div>
+				<div class="col">
+					<div class="img back5"></div>
+					<p>공부의 신</p>
+				</div>
+				<div class="col">
+					<div class="img back6"></div>
+					<p>란제리 소녀시대</p>
+				</div>
+				<div class="col">
+					<div class="img back7" ></div>
+					<p>발칙하게 고고</p>
+				</div>
+				<div class="col" style="margin:0">
+					<div class="img back8" ></div>
+					<p>응답하라 시리즈</p>
+				</div>
+				<div style="clear:both"></div>
+			</div>
+		</section>
+	
+		<div class="what">
+		<section class="hoo" style="position: absolute;">
+			<div class="wo" style="position: absolute;">
+			<h2>과도한 입시 경쟁의 치열함</h2>
+			<h3>저를 전적으로 믿으셔야 합니다. _스카이 캐슬<br>
+	공부하기 싫어도, 책을 찢어도 새 책을 다시 펴줘야 되는게 <br>부모고, 연필을 부러뜨려도 새 연필을 다시 쥐어줘야 되는게<br> 부모야! 1등급 저기 꼭대기에 올라갈 수 있잖아_스카이 캐슬</h3>
+	</div>
+	<img src="./j.png" style= " position: absolute; width:450px;  display: block; z-index: 2; ">
+	<h4 style="margin-top: 780px; padding-left: 123px;z-index: 2;">드라마_스카이캐슬</h4>
+	<img src="./ja.png" style= " padding-top:629px; padding-left: 400px;position: absolute; width:350px;  display: block; z-index: 1; ">
+	<h4 style="margin-top: 780px; padding-left: 440px;z-index: 2;">드라마_공부의 신</h4>
+	<img src="./jb.png" style= "padding-top:150px; padding-left: 880px;position: absolute; width:250px;  display: block; z-index: 1; opacity: 50%;  ">		
+		</section>
+		<section class="ooh" style="position: absolute;">
+			<div class="oh" style="position: absolute;">
+			<h2>자살&자해 시도</h2>
+			<h3>
+	누구나 죽고싶을 때가 있어.<br>
+	죽고싶다는 생각을 하는 건 잘못한게 아니고,<br> 죽고싶은데 그걸 견디고 버텨낸 게 아주 훌륭한거야.<br> 넌 오늘 아주 큰 산을 넘은거야.<br> 그것도 힘겹게, 그리고 아주 잘_학교2013</h3>
+	</div>
+	<img src="./k.png" style= " padding-top: 1050px; padding-left: 300px;position: absolute; width:900px;  display: block; z-index: 2; ">
+	<h4 style=" width:300;margin-top: 1660px; padding-left: 880px;z-index: 2;">드라마_복수가 돌아왔다</h4>
+	<img src="./ka.png" style= " padding-top:620px; padding-left: 50px;position: absolute; width:380px;  display: block; z-index: 1; ">
+	<h4 style="margin-top: 1330px; padding-left: 120px;z-index: 2;">드라마_정글피쉬</h4>
+		</section>
+		<section class="oohh" style="position: absolute;">
+			<div class="ohh" style="position: absolute;">
+			<h2>마음 약한 날라리들</h2>
+			<h3>
+			얼마나 막 살았냐? 왜 막 살았는데<br>
+			너같은 새끼 또 있는가 싶어서.<br>
+			왜 나같은 새끼만나면 패버리려고?<br>
+			맘 붙이려고 이 새끼야. 
+			<br>븅신 새끼 그렇게 당하고도...<br>
+			넌 안 당했냐? <br>어디가서 아프다는 말이라도 해봤냐<br>
+			이 불쌍한 새끼야? <br>
+			너나 나나야... 그러니까 남순아<br>
+			그만 미안해 해라_학교2013 </h3>
+	</div>
+	<img src="./l.png" style= " padding-top: 2150px; padding-left: 0px;position: absolute; width:650px;  display: block; z-index: 2; ">
+	<h4 style=" width:300;margin-top: 2600px; padding-left: 340px;z-index: 2;">드라마_학교2013</h4>
+	<img src="./la.png" style= " padding-top:1850px; padding-left: 0px;position: absolute; width:600px;  display: block; z-index: 1; ">
+	<h4 style="margin-top: 1330px; padding-left: 120px;z-index: 2;">드라마_정글피쉬</h4>
+	</section>
+		<section class="hyy" style="position: absolute;">
+			<div class="ha" style="position: absolute;">
+			<h2>불우한 가정환경</h2>
+			<h3>
+			언니가 결혼을 한다는 건 <br>
+			한국에 돌아올 생각이 없다는거구 <br>
+			언니가 안 돌아온다는 건<br>
+			난 평생 설거지나 하면서 <br>
+			엄마랑 둘이 살아야 한다는 거구<br>
+			처음부터 내 인생은 흑자 없이 <br>
+			세팅된건가... 너무 억울하고 _상속자들 </h3>
+	</div>
+	<img src="./m.png" style= " padding-top: 2900px; padding-left: 0px;position: absolute; width:550px;  display: block; z-index: 2; ">
+	<h4 style=" width:300;margin-top: 3200px; padding-left: 240px;z-index: 2;">드라마_청춘시대</h4>
+	<img src="./ma.png" style= " padding-top:3155px; padding-left: 630px;position: absolute; width:570px;  display: block; z-index: 5; ">
+	<h4 style="margin-top: 3765px; padding-left: 870px;z-index: 5;z-index: 2;">드라마_청춘시대</h4>
+		</section>
+		<section class="lll" style="position: absolute;">
+			<div class="ll" style="position: absolute;">
+			<h2>나이보다 성숙한 아이들</h2>
+			<h3>
+			10대가 질풍 노도의 시기인건 아직 정답을 <br>
+			모르기 때문이다. 내가 진짜 원하는게 무엇인지 <br>정말 날 사랑 해주는 사람이 누구인지 내가 <br>사랑하는 사람은 누구인지 그 답을 찾아 <br>이리쿵 저리쿵 수탄 시행 착오만을 반복하는 <br>시기_응답하라 1997   </h3>
+	</div>
+	<img src="./n.png" style= " padding-top: 3734px; padding-left: 394px;position: absolute; width:809px;  display: block; z-index:1; ">
+	<h4 style=" width:300;margin-top: 4420px; padding-left: 880px;z-index: 2;">드라마_상속자들</h4>
+	<img src="./na.png" style= " padding-top:4400px; padding-left: 0px;position: absolute; width:480px;  display: block; z-index: 2; ">
+	<h4 style="margin-top: 4840px; padding-left: 170px;z-index: 2;">드라마_청춘시대</h4>
+		</section>
+		<section >
+			<img src="./o.png" style= " padding-top:5200px; padding-left: 80px;position: absolute; width:680px;  display: block; z-index: 5; ">
+			<img src="./oa.png" style= " padding-top:5200px; padding-left: 780px;position: absolute; width:340px;  display: block; z-index: 5; ">
+			<img src="./od.png" style= " padding-top:5450px; padding-left: 780px;position: absolute; width:340px;  display: block; z-index: 5; "><img src="./ob.png" style= " padding-top:5590px; padding-left: 80px;position: absolute; width:680px;  display: block; z-index: 5; "><img src="./oe.png" style= " padding-top:5685px; padding-left: 780px;position: absolute; width:340px;  display: block; z-index: 5; ">
+			<img src="./oc.png" style= " padding-top:6047px; padding-left: 490px;position: absolute; width:630px;  display: block; z-index: 5; ">
+			<img src="./of.png" style= " padding-top:6047px; padding-left: 80px;position: absolute; width:388px;  display: block; z-index: 5; ">
+		<div class="school" style="position: absolute;">
+			<h3>
+			소리 내 울고 싶을 때가있다. <br>
+			 누군가 내 울음소리를 들어줬으면 싶을 때가 있다.<br>
+			듣고서 괜찮다. 라고 말해줬으면 좋겠다.<br>
+			내 잘못이 아니라고 토닥여줬으면 좋겠다._청춘시대<br>
+  </h3>
+		</div>
+		</section>
+	</div>
+	 <div class="who">
+  	<p>&nbsp;</p>
+  </div>
+	<div class="wego">
+		<section>
+			<section id="b">
+	<img src="./p.png" style= " text-align: center;width:280px; padding-top: 100px; padding-left: 460px; display: block; ">	
+		</section>
+		<section>
+			<div class="thumbrail-box">
+				<div class="col">
+					<div class="img back9"></div>
+					<p>버저비트</p>
+				</div>
+				<div class="col">
+					<div class="img back10"></div>
+					<p>꽃보다 남자</p>
+				</div>
+				<div class="col">
+					<div class="img back11" ></div>
+					<p>장난스런 키스</p>
+				</div>
+				<div class="col" >
+					<div class="img back12" ></div>
+					<p>고쿠센</p>
+				</div>
+				<div class="col">
+					<div class="img back13"></div>
+					<p>사랑하는 사이</p>
+				</div>
+				<div class="col">
+					<div class="img back14"></div>
+					<p>노다메 칸타빌레</p>
+				</div>
+				<div class="col">
+					<div class="img back15" ></div>
+					<p>프로포즈 대작전</p>
+				</div>
+				<div class="col" style="margin:0">
+					<div class="img back16" ></div>
+					<p>노부타 프로듀스</p>
+				</div>
+				<div style="clear:both"></div>
+			</div>
+		</section>
+		<div class="woo">
+		<div class="we">
+		<section class="weee" style="position: absolute;">
+			<div class="wie" style="position: absolute;">
+			<h2>무뚝뚝한 남자를 좋아하는 주인공</h2>
+			<h3>그렇게 하토리상 걱정하는 척하면서 결국은 자기를 <br>무조건적으로 사랑해주는 사람을 놓치기 싫은 것 뿐이잖아.<br> 그거... 너무 잔인하다고 생각하지 않아?_히로인 실격</h3>
+	</div>
+	<img src="./q.png" style= " position: absolute; width:650px; padding-top:300px;padding-left: 480px; display: block; z-index: 2; ">
+	<h4 style="margin-top: 630px; padding-left: 815px;z-index: 2;">드라마_장난스런 키스</h4>
+	<img src="./qb.png" style= " padding-top:570px; padding-left: 160px;position: absolute; width:200px;  display: block; z-index: 1; ">
+	<img src="./qa.png" style= "padding-top:700px; padding-left:0px;position: absolute; width:750px;  display: block; z-index: 1; opacity: 50%;  ">		
+	<h4 style="margin-top: 1200px; padding-left: 430px;z-index: 2;">드라마_노다메 칸타빌레</h4>	
+		</section>
+	<section class="a" style="position: absolute;">
+			<div class="ab" style="position: absolute;">
+			<h2>오버스러운 연기</h2>
+			<h3>약해? 이 녀석이 약하다고? 좋아하는 사람을 위해서<br> 이길 수 없단걸 뻔히 알면서도 진지하게 정면으로<br> 부딪힌 이 녀석이 어디가 약하다는 거야<br> 아무리 힘이 약하다고 해도 마지막까지 달아나지 않고<br> 힘을 낸
+		이 녀석의 마음이 엄청나게 강하잖아!<br> 
+				너 같은것보다 이 녀석이 훨씬 강하다고!_고쿠센</h3>
+	</div>
+	<img src="./rc.png" style= " position: absolute; width:300px; padding-top:1650px;padding-left: 900px; display: block; z-index: 2; ">
+	<h4 style="margin-top: 1825px; padding-left:1px;z-index: 2;">영화_히로인 실격</h4>
+	<img src="./rb.png" style= " padding-top:1750px; padding-left: 650px;position: absolute; width:480px;  display: block; z-index: 3; ">
+
+	<h4 style="margin-top: 1825px; padding-left: 260px;z-index: 2;">드라마_마이보스 마이히어로</h4>	
+	<img src="./r.png" style= "padding-top:1432px; padding-left:150px;position: absolute; width:420px;  display: block; z-index:3; opacity: 50%;  ">		
+	<h4 style="margin-top: 1600px; padding-left: 880px;z-index: 2;">드라마_장난스런 키스</h4>
+	<img src="./ra.png" style= "padding-top:1450px; padding-left:0px;position: absolute; width:230px;  display: block; z-index: 1; opacity: 50%;  ">		
+	<h4 style="margin-top: 2250px; padding-left: 820px;z-index: 2;">드라마_노다메 칸타빌레</h4>
+		</section>
+	<section class="b" style="position: absolute;">
+			<div class="bb" style="position: absolute;">
+			<h2>원작이 만화, 소설인 경우가 많음</h2>
+			<h3>만화가에게 있어서 작품이 드라마화되는 건<br> 좋은 이야기라고 생각하지만 자신이 소중히<br> 그려온 등장 인물이 같은 이름으로 다른 인물이<br>  되버리는 걸 용서할 수 없는 걸 알 것 같은 <br> 기분이 들어_네가 마음에 자리잡았다 <br> 
+				</h3>
+	</div>
+	<img src="./s.png" style= " position: absolute; width:330px; padding-top:2500px;padding-left:610px; display: block; z-index: 3; ">
+	<h4 style="margin-top:3340px; padding-left:1px;z-index: 2;">드라마_고쿠센</h4>
+	<img src="./sa.png" style= " padding-top:2520px; padding-left: 900px;position: absolute; width:300px;  display: block; z-index: 2; ">
+
+	<h4 style="margin-top: 3340px; padding-left: 200px;z-index: 2;">만화_고쿠센</h4>	
+	<img src="./sc.png" style= "padding-top:2400px; padding-left:180px;position: absolute; width:380px;  display: block; z-index:2; opacity: 50%;  ">		
+	<h4 style="margin-top: 2910px; padding-left: 630px;z-index: 2;">드라마_장난스런 키스</h4>
+	<img src="./sb.png" style= "padding-top:2880px; padding-left:0px;position: absolute; width:404px;  display: block; z-index: 3; opacity: 50%;  ">		
+	<h4 style="margin-top: 2910px; padding-left: 880px;z-index: 2;">만화_장난스런 키스</h4>
+	</section>
+<section class="c" style="position: absolute;">
+			<div class="ca" style="position: absolute;">
+			<h2>축제가 등장함</h2>
+			<h3>아무말도 안하고 있으면 전해지지 않습니다.<br> 
+			마음은 말을 하지 않으면<br>  전해지지 않습니다._호타루의 빛<br> 
+			기적이라는건 의외로 쉽게 일으킬 수 있을지도 몰라.<br> 
+			아주 작은 한발이라도 앞으로 내딛으면 운명을 <br> 
+			바꿀 수 있을지도 몰라_사랑하는 사이<br> 
+				</h3>
+	</div>
+	<img src="./ta.gif" style= " position: absolute; width:1200px; padding-top:3500px;padding-left:0px; display: block; z-index: 3; ">
+	<h4 style="margin-top:3340px; padding-left:1px;z-index: 2;">드라마_고쿠센</h4>
+	<img src="./t.png" style= "padding-top:3800px; padding-left:430px;position: absolute; width:730px;  display: block; z-index:4; opacity: 50%;  ">		
+	<h4 style="margin-top: 4360px; padding-left: 800px;z-index:4;">드라마_사랑하는 사이</h4>
+	<img src="./sb.png" style= "padding-top:2880px; padding-left:0px;position: absolute; width:404px;  display: block; z-index: 3; opacity: 50%;  ">		
+	<h4 style="margin-top: 2910px; padding-left: 880px;z-index: 2;">만화_장난스런 키스</h4>
+	</div>
+
+
+</div>
+</body>
+</html>
